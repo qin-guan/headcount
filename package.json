@@ -11,8 +11,13 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.41.2",
     "@nuxt/devtools": "latest",
+    "@simplewebauthn/browser": "^8.0.2",
+    "@simplewebauthn/server": "^8.1.1",
     "@types/node": "^18.17.1",
     "eslint": "^8.49.0",
     "nuxt": "^3.7.1"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.8.1"
   }
 }
