@@ -6,18 +6,18 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare && panda codegen"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.41.2",
+    "@ark-ui/vue": "^0.8.0",
     "@nuxt/devtools": "latest",
+    "@pandacss/dev": "^0.15.0",
+    "@park-ui/presets": "^0.11.0",
     "@simplewebauthn/browser": "^8.0.2",
     "@simplewebauthn/server": "^8.1.1",
     "@types/node": "^18.17.1",
     "eslint": "^8.49.0",
     "nuxt": "^3.7.3"
-  },
-  "dependencies": {
-    "@nuxt/ui": "^2.8.1"
   }
 }
